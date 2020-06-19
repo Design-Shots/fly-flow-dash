@@ -65,6 +65,6 @@ export default {
 
 <style scoped>
 .container {
-  background: #e4f2ff;
+  background: #EEF7FF;
 }
 </style>
