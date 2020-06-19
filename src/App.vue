@@ -2,18 +2,20 @@
   <div id="app">
     <SideBar></SideBar>
     <MainContent></MainContent>
+    <RightContextMenu></RightContextMenu>
   </div>
 </template>
 
 <script>
 import SideBar from "./components/SideBar";
 import MainContent from "./components/MainContent";
-
+import RightContextMenu from "./components/RightContextMenu";
 export default {
   name: "App",
   components: {
     SideBar,
-    MainContent
+    MainContent,
+    RightContextMenu
   }
 };
 </script>
