@@ -17,7 +17,7 @@
                                     Team members
                                 </div>
                                 <div class="grid grid-cols-5 grid-rows-1 grid-flow-col-dense avatars mx-auto">
-                                    <div class="rounded-full w-full avatar ">
+                                    <div class="rounded-full w-full">
                                         <img src="@/assets/me.jpg"
                                              class="border-2 border-white profile rounded-full m-0 w-full h-full transition duration-500 ease-in-out hover:shadow-md shadow-none hover:opacity-75"
                                              alt="">
@@ -53,7 +53,8 @@
                                 </div>
                                 <div class="m-auto h-20 w-20">
                                     <div class="bg-gradient-yellow-light-dark rounded-lg p-4">
-                                        <font-awesome-icon :icon="['fas', 'layer-group']" size="3x" class="text-white"></font-awesome-icon>
+                                        <font-awesome-icon :icon="['fas', 'layer-group']" size="3x"
+                                                           class="text-white"></font-awesome-icon>
                                     </div>
                                 </div>
                             </div>
@@ -64,13 +65,15 @@
                                 </div>
                                 <div class="m-auto h-20 w-20">
                                     <div class="bg-gradient-orange-light-dark rounded-lg p-4">
-                                        <font-awesome-icon :icon="['fas', 'stopwatch']" size="3x" class="text-white"></font-awesome-icon>
+                                        <font-awesome-icon :icon="['fas', 'stopwatch']" size="3x"
+                                                           class="text-white"></font-awesome-icon>
                                     </div>
                                 </div>
                             </div>
                             <div class="uppercase my-auto text-indigo-500 text-right">
-                                More info <font-awesome-icon :icon="['fal','chevron-right']" size="xs"
-                                                             class="mx-2"></font-awesome-icon>
+                                More info
+                                <font-awesome-icon :icon="['fal','chevron-right']" size="xs"
+                                                   class="mx-2"></font-awesome-icon>
                             </div>
                         </div>
 
@@ -108,11 +111,4 @@
         filter: grayscale(90%);
     }
 
-    .avatars not:first-child img {
-        margin-left: -80px;
-        left:-50px;
-    }
-    .avatar img {
-        z-index: 1;
-    }
 </style>
