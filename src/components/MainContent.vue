@@ -1,5 +1,5 @@
 <template>
-    <div class="main">
+    <div class="bg-gray-100 h-full">
         <div class="m-4">
             <Header></Header>
             <div class="content">
@@ -27,8 +27,4 @@
 </script>
 
 <style scoped>
-    .main {
-        height: 100%;
-        background: #f1f9ff;
-    }
 </style>

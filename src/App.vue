@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="h-full w-full">
     <SideBar></SideBar>
     <MainContent></MainContent>
     <RightContextMenu></RightContextMenu>
@@ -26,8 +26,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  height: 100%;
-  width: 100%;
   color: #2c3e50;
   display: grid;
   grid-template-columns: 100px 4fr 1fr;

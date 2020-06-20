@@ -1,5 +1,5 @@
 <template>
-    <div class="container  grid grid-rows-7 text-white row-gap-16">
+    <div class="bg-indigo-500 grid grid-rows-7 text-white row-gap-16">
         <div class="mt-0 mb-auto rounded-full h-16 2-16 row-span-1 row-start-2">
             <font-awesome-layers class="fa-2x">
                 <font-awesome-icon :icon="['fas', 'circle']" transform="left-3 up-3"></font-awesome-icon>
@@ -51,9 +51,5 @@
 <style scoped>
     .profile {
         filter: grayscale(90%);
-    }
-
-    .container {
-        background: #686CFF;
     }
 </style>
