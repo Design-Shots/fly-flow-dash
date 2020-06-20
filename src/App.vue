@@ -3,7 +3,7 @@
         <div id="content">
             <SideBar class="h-screen fixed left-0"></SideBar>
             <MainContent class="col-start-2"></MainContent>
-            <RightContextMenu></RightContextMenu>
+            <RightContextMenu class="border-l-1 border-gray-200"></RightContextMenu>
         </div>
     </div>
 </template>
@@ -35,6 +35,6 @@
     #content {
         display: grid;
         grid-template-rows: 1fr;
-        grid-template-columns:100px 4fr 1fr;
+        grid-template-columns:100px 5fr 400px;
     }
 </style>

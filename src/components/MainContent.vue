@@ -106,7 +106,6 @@
         grid-template-rows: 100px 1fr 4fr;
         grid-template-columns: 1fr;
     }
-
     .profile {
         filter: grayscale(90%);
     }
