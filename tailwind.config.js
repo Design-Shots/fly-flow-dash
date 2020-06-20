@@ -454,6 +454,10 @@ module.exports = {
             'purple-blue': [theme('colors.purple.500'), theme('colors.blue.500')],
             'indigo-light-dark': [theme('colors.indigo.500'), theme('colors.indigo.600')],
             'indigo-dark-light': [theme('colors.indigo.600'), theme('colors.indigo.500')],
+            'yellow-dark-light': [theme('colors.yellow.500'), theme('colors.yellow.400')],
+            'yellow-light-dark': [theme('colors.yellow.400'), theme('colors.yellow.500')],
+            'orange-dark-light': [theme('colors.orange.500'), theme('colors.orange.400')],
+            'orange-light-dark': [theme('colors.orange.400'), theme('colors.orange.500')],
         }),
         gridTemplateColumns: {
             none: "none",
